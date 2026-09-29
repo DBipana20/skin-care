@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>GlowTrack - Products</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed-variant": "#544244",
+                        "surface-container-low": "#f5f3f3",
+                        "error-container": "#ffdad6",
+                        "secondary-container": "#d8e2df",
+                        "primary-container": "#fde2e4",
+                        "on-secondary-fixed-variant": "#3f4947",
+                        "surface-container": "#efeded",
+                        "on-error": "#ffffff",
+                        "on-primary-container": "#776365",
+                        "tertiary-container": "#ffe1e6",
+                        "primary-fixed-dim": "#dac0c2",
+                        "on-tertiary": "#ffffff",
+                        "on-tertiary-container": "#865d66",
+                        "on-surface": "#1b1c1c",
+                        "secondary-fixed-dim": "#bfc9c6",
+                        "inverse-on-surface": "#f2f0f0",
+                        "on-primary": "#ffffff",
+                        "on-secondary-fixed": "#141d1c",
+                        "on-tertiary-fixed-variant": "#613c45",
+                        "outline": "#807475",
+                        "on-secondary-container": "#5b6562",
+                        "on-tertiary-fixed": "#2f121a",
+                        "surface-tint": "#6d595b",
+                        "primary": "#6d595b",
+                        "secondary-fixed": "#dbe5e2",
+                        "error": "#ba1a1a",
+                        "tertiary-fixed-dim": "#ecb9c4",
+                        "surface-variant": "#e4e2e2",
+                        "on-surface-variant": "#4e4445",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#ffd9e0",
+                        "inverse-primary": "#dac0c2",
+                        "on-primary-fixed": "#26181a",
+                        "outline-variant": "#d2c3c4",
+                        "surface-dim": "#dbd9d9",
+                        "surface-container-high": "#eae8e7",
+                        "on-background": "#1b1c1c",
+                        "on-secondary": "#ffffff",
+                        "surface-bright": "#fbf9f8",
+                        "surface-container-highest": "#e4e2e2",
+                        "inverse-surface": "#303030",
+                        "surface": "#fbf9f8",
+                        "secondary": "#57605e",
+                        "primary-fixed": "#f7dcde",
+                        "tertiary": "#7b535c",
+                        "background": "#fbf9f8"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-desktop": "120px",
+                        "margin-mobile": "20px",
+                        "lg": "40px",
+                        "sm": "12px",
+                        "xs": "4px",
+                        "base": "8px",
+                        "gutter": "16px",
+                        "xl": "64px",
+                        "md": "24px"
+                    },
+                    "fontFamily": {
+                        "body-md": ["Quicksand"],
+                        "headline-lg": ["Quicksand"],
+                        "headline-lg-mobile": ["Quicksand"],
+                        "label-sm": ["Quicksand"],
+                        "label-md": ["Quicksand"],
+                        "display": ["Quicksand"],
+                        "headline-md": ["Quicksand"],
+                        "body-lg": ["Quicksand"]
+                    },
+                    "fontSize": {
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "headline-lg": ["32px", { "lineHeight": "40px", "fontWeight": "600" }],
+                        "headline-lg-mobile": ["28px", { "lineHeight": "36px", "fontWeight": "600" }],
+                        "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+                        "display": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+                        "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "500" }]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .material-symbols-outlined[style*="'FILL' 1"] {
+            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        /* Custom Utilities for Soft Wellness Aesthetic */
+        .ambient-shadow {
+            box-shadow: 0 24px 32px rgba(74, 74, 74, 0.05);
+        }
+        .glass-blur {
+            backdrop-filter: blur(12px);
+        }
+        
+        /* Hide scrollbar for category tabs */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background font-body-md min-h-screen pb-32">
+<!-- TopAppBar -->
+<header class="w-full sticky top-0 backdrop-blur-xl bg-surface/80 dark:bg-surface-dim/80 flex items-center justify-between px-margin-mobile py-base w-full z-50">
+<button class="hover:opacity-80 transition-opacity active:scale-95 transition-transform duration-200 p-sm text-on-surface-variant/60 dark:text-on-surface-variant/40">
+<span class="material-symbols-outlined" data-icon="arrow_back">arrow_back</span>
+</button>
+<h1 class="font-display text-display text-primary dark:text-primary-fixed-dim">GlowTrack</h1>
+<div class="w-10"></div> <!-- Placeholder for balance -->
+</header>
+<main class="max-w-[1140px] mx-auto px-margin-mobile md:px-margin-desktop pt-md pb-xl space-y-lg">
+<!-- Search & Filter Area -->
+<section class="space-y-sm">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-md top-1/2 -translate-y-1/2 text-on-surface-variant">search</span>
+<input class="w-full bg-surface-container-low/50 border-none rounded-full py-md pl-xl pr-md font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/60 focus:ring-2 focus:ring-primary-container transition-all" placeholder="Search products, ingredients..." type="text"/>
+</div>
+<!-- Categories -->
+<div class="flex overflow-x-auto no-scrollbar space-x-sm py-sm">
+<button class="px-md py-sm rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md whitespace-nowrap active:scale-95 transition-transform">Cleansers</button>
+<button class="px-md py-sm rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap active:scale-95 transition-transform">Serums</button>
+<button class="px-md py-sm rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap active:scale-95 transition-transform">Moisturizers</button>
+<button class="px-md py-sm rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md whitespace-nowrap active:scale-95 transition-transform">Sunscreens</button>
+</div>
+</section>
+<!-- Product Grid -->
+<section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-gutter">
+<!-- Product Card 1 -->
+<article class="bg-surface-container-lowest rounded-xl ambient-shadow overflow-hidden flex flex-col group cursor-pointer hover:shadow-[0_24px_32px_rgba(74,74,74,0.08)] transition-all duration-300">
+<div class="aspect-square relative p-sm bg-surface-container-low/30">
+<img class="w-full h-full object-cover rounded-lg mix-blend-multiply" data-alt="A minimalist, high-end skincare cleanser bottle in soft morning light. The bottle is a frosted sage green color with subtle typography, sitting on a pristine white marble surface. Soft, diffused lighting creates gentle reflections, emphasizing a clean, soothing wellness aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnPPbbT-Yawdt0arTSrHqloWiCCFZbyBc4x4Wr2KClNF4IyxGngKN59iOey-IOUpV_cB-Q92qKbMPYCiioIoadZEyISjoN4-8Yjk_nBeVGw0BLcmKy9x-rmqnG8KtHZzPxK-oaPBxNk4FcmdHtutpxB56ymnF_UMm9yrd9iG3lscnnlAdgcBtfK7htIrjZZwKzrnS7F7glXpi87vmsgZj98hE0UljInI6mk-U2bi3c4rfYCKdD7GzjAg"/>
+<button class="absolute top-sm right-sm w-8 h-8 rounded-full bg-surface-container-lowest/80 glass-blur flex items-center justify-center text-on-surface-variant hover:text-tertiary transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="favorite">favorite</span>
+</button>
+</div>
+<div class="p-sm flex flex-col flex-grow justify-between">
+<div>
+<div class="flex justify-between items-start mb-xs">
+<span class="inline-block px-2 py-1 rounded-full bg-secondary-container/30 text-on-secondary-container font-label-sm text-[10px] uppercase tracking-wider">Dry Skin</span>
+<div class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[14px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-[10px] ml-xs">4.8</span>
+</div>
+</div>
+<h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Gentle Milky Cleanser</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant/70 mt-xs line-clamp-1">Oat Extract &amp; Ceramides</p>
+</div>
+</div>
+</article>
+<!-- Product Card 2 -->
+<article class="bg-surface-container-lowest rounded-xl ambient-shadow overflow-hidden flex flex-col group cursor-pointer hover:shadow-[0_24px_32px_rgba(74,74,74,0.08)] transition-all duration-300">
+<div class="aspect-square relative p-sm bg-surface-container-low/30">
+<img class="w-full h-full object-cover rounded-lg mix-blend-multiply" data-alt="A luxurious skincare serum dropper bottle in a minimalist setting. The bottle is made of translucent frosted glass with a blush pink tint. It rests on a smooth, curved beige pedestal against a soft white background. The lighting is ethereal and soft, highlighting the luxurious wellness aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6uWQi3Baq6uSyLoYnKkoaXk1I5njXmDmo2esCM4Y6VuBpelOcOlKJbjezPTJo1LSrOrEynjhe2jIHBQ9DYx4EYyJXffPBjsEN06aR1Pbcz754waRuwuT23kE9qMySd8gGewa4DXBlclKaOaDtLlLVHl0b1soKd2ljcIQlec1GHgiX8HJ6Qum9u6gmU6mq98o_TEJUjVArOcsDKT0lrWPh9qwJj2jSiSz195OBtx0NlyvbrI_JA8bM6Q"/>
+<button class="absolute top-sm right-sm w-8 h-8 rounded-full bg-surface-container-lowest/80 glass-blur flex items-center justify-center text-on-surface-variant hover:text-tertiary transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="favorite">favorite</span>
+</button>
+</div>
+<div class="p-sm flex flex-col flex-grow justify-between">
+<div>
+<div class="flex justify-between items-start mb-xs">
+<span class="inline-block px-2 py-1 rounded-full bg-primary-container/50 text-on-primary-container font-label-sm text-[10px] uppercase tracking-wider">Sensitive</span>
+<div class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[14px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-[10px] ml-xs">4.9</span>
+</div>
+</div>
+<h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Calming Cica Serum</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant/70 mt-xs line-clamp-1">Centella Asiatica &amp; Panthenol</p>
+</div>
+</div>
+</article>
+<!-- Product Card 3 -->
+<article class="bg-surface-container-lowest rounded-xl ambient-shadow overflow-hidden flex flex-col group cursor-pointer hover:shadow-[0_24px_32px_rgba(74,74,74,0.08)] transition-all duration-300">
+<div class="aspect-square relative p-sm bg-surface-container-low/30">
+<img class="w-full h-full object-cover rounded-lg mix-blend-multiply" data-alt="A sleek, modern moisturizer jar in a soft, bright environment. The jar is a matte cream color with minimalist charcoal text. It is placed on a slightly textured, light sage green background. The lighting is diffused and even, emphasizing a calm, organized, and premium skincare aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7mfE-4VLpPqTc8evIaVu_04vi3CbADxx6780dZGY6jBvAhpPuCMGZRbDenkLPva4d06_yYy66iZo5t2phUooQH7G10m37Pqc2x1n97Y7zYXTVtcis26sfMVkMAymijbMcyHL3g2PeUfhUxHPCOGEqC9VOoT1WFk2cvbfBXJaorVpAahB2rqMcgHN-aUnQUnRqoZJfFPR4j2yjvzBengbofCgoYMP4ivkjuPwUm563TnNmxf8eA6qqow"/>
+<button class="absolute top-sm right-sm w-8 h-8 rounded-full bg-surface-container-lowest/80 glass-blur flex items-center justify-center text-on-surface-variant hover:text-tertiary transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="favorite">favorite</span>
+</button>
+</div>
+<div class="p-sm flex flex-col flex-grow justify-between">
+<div>
+<div class="flex justify-between items-start mb-xs">
+<span class="inline-block px-2 py-1 rounded-full bg-tertiary-container/30 text-on-tertiary-container font-label-sm text-[10px] uppercase tracking-wider">All Skin Types</span>
+<div class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[14px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-[10px] ml-xs">4.7</span>
+</div>
+</div>
+<h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Daily Barrier Cream</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant/70 mt-xs line-clamp-1">Hyaluronic Acid &amp; Peptides</p>
+</div>
+</div>
+</article>
+<!-- Product Card 4 -->
+<article class="bg-surface-container-lowest rounded-xl ambient-shadow overflow-hidden flex flex-col group cursor-pointer hover:shadow-[0_24px_32px_rgba(74,74,74,0.08)] transition-all duration-300">
+<div class="aspect-square relative p-sm bg-surface-container-low/30">
+<img class="w-full h-full object-cover rounded-lg mix-blend-multiply" data-alt="A minimalist skincare toner bottle in a serene, sunlit bathroom setting. The clear bottle contains a pale liquid, resting on a wooden tray alongside a soft white towel. The lighting casts gentle, organic shadows, creating a tranquil, premium self-care atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCA0v_dd5d4KGd-EhlVBJFnhzWWzTR3WgDPiEN0VeaqV4UKE6F-WxCX1WGp2FYDZlffuDoiXZoXnjFzAdQB2eKxlc9gjAxhZgsC2NBXZ8dk2-EJR16MaGgIHJc32odnlAhFn6ZGLBO27ZNdvkbzBrNpE8n3NUHpUMi434ss7mGw4Bh6xW6ySU4YaGWOxfIiUiuhc9lrPOMqDQRMbzXTjHD8IB3eKi0EDEY7rrQQYvFwJTwB8yZuKTVx-g"/>
+<button class="absolute top-sm right-sm w-8 h-8 rounded-full bg-surface-container-lowest/80 glass-blur flex items-center justify-center text-on-surface-variant hover:text-tertiary transition-colors">
+<span class="material-symbols-outlined text-[20px]" data-icon="favorite">favorite</span>
+</button>
+</div>
+<div class="p-sm flex flex-col flex-grow justify-between">
+<div>
+<div class="flex justify-between items-start mb-xs">
+<span class="inline-block px-2 py-1 rounded-full bg-secondary-container/30 text-on-secondary-container font-label-sm text-[10px] uppercase tracking-wider">Oily Skin</span>
+<div class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[14px]" data-icon="star" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-[10px] ml-xs">4.6</span>
+</div>
+</div>
+<h3 class="font-label-md text-label-md text-on-surface line-clamp-2">Purifying Gel Cleanser</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant/70 mt-xs line-clamp-1">BHA &amp; Green Tea</p>
+</div>
+</div>
+</article>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="md:hidden fixed bottom-6 left-1/2 -translate-x-1/2 w-[calc(100%-40px)] max-w-md z-50 flex justify-around items-center p-sm bg-surface-container-lowest/80 dark:bg-surface-container-high/80 backdrop-blur-xl shadow-[0_24px_32px_rgba(74,74,74,0.08)] rounded-full">
+<button class="flex items-center justify-center text-on-secondary-container/50 dark:text-on-secondary-container/40 w-12 h-12 hover:bg-secondary-container/20 transition-colors active:scale-90 transition-all duration-300 rounded-full">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+</button>
+<button class="flex items-center justify-center text-on-secondary-container/50 dark:text-on-secondary-container/40 w-12 h-12 hover:bg-secondary-container/20 transition-colors active:scale-90 transition-all duration-300 rounded-full">
+<span class="material-symbols-outlined" data-icon="event_upcoming">event_upcoming</span>
+</button>
+<!-- Active Tab: Sanitizer (representing products/cleansers in the provided icon list) -->
+<button class="flex items-center justify-center bg-primary-container dark:bg-on-primary-fixed-variant text-on-primary-container dark:text-primary-fixed rounded-full w-12 h-12 hover:bg-secondary-container/20 transition-colors active:scale-90 transition-all duration-300">
+<span class="material-symbols-outlined" data-icon="sanitizer">sanitizer</span>
+</button>
+<button class="flex items-center justify-center text-on-secondary-container/50 dark:text-on-secondary-container/40 w-12 h-12 hover:bg-secondary-container/20 transition-colors active:scale-90 transition-all duration-300 rounded-full">
+<span class="material-symbols-outlined" data-icon="water_drop">water_drop</span>
+</button>
+<button class="flex items-center justify-center text-on-secondary-container/50 dark:text-on-secondary-container/40 w-12 h-12 hover:bg-secondary-container/20 transition-colors active:scale-90 transition-all duration-300 rounded-full">
+<span class="material-symbols-outlined" data-icon="leaderboard">leaderboard</span>
+</button>
+</nav>
+</body></html>

@@ -1,0 +1,232 @@
+{
+  "user": {
+    "name": "Elena Rostova",
+    "email": "elena.rostova@example.com",
+    "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuD5GrDL4N_6WwLfHYv2gAsaOEwItBo2Pc8_8t_zmGhh2204gF-5HS2feOwRTZM89xWN56iAsnEPCm8T88T4BH_RNNXg0W6VRxPg8uM8Ra1c0Akg_bXGRIl3myMTgBhq7CGQ8bhPgKHur36TQG7_L2Ief4BcZ0swtKdm1v2shnO6cOB-iMheCHjXcGUJfUjysXn2yKnUuO1bgrH3S885FO-_CMosL4MRbNOYPs8WosHHq0Cab2_tc0fWaw"
+  },
+  "skinType": "Sensitive",
+  "concerns": [
+    "Rosacea-Prone",
+    "Combination"
+  ],
+  "reminders": {
+    "enabled": true,
+    "morningTime": "8:00 AM",
+    "eveningTime": "9:30 PM"
+  },
+  "streakDays": 12,
+  "longestStreak": 24,
+  "waterGlasses": 5,
+  "morningSteps": [
+    {
+      "id": 1,
+      "step": "Cleanse",
+      "product": "Gentle Foaming Cleanser",
+      "tip": "Use lukewarm water",
+      "icon": "water_drop",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "step": "Tone",
+      "product": "Balancing Rose Toner",
+      "tip": "Pat gently into skin",
+      "icon": "lens_blur",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "step": "Treat",
+      "product": "Vitamin C Brightening Serum",
+      "tip": "2-3 drops is enough",
+      "icon": "science",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "step": "Moisturize",
+      "product": "Hydrating Cloud Cream",
+      "tip": "Massage upwards",
+      "icon": "spa",
+      "completed": false
+    },
+    {
+      "id": 5,
+      "step": "Protect",
+      "product": "Sheer Defense SPF 50",
+      "tip": "Don't forget your neck",
+      "icon": "light_mode",
+      "completed": false
+    }
+  ],
+  "eveningSteps": [
+    {
+      "id": 1,
+      "step": "Melt",
+      "product": "Soothing Cleansing Balm",
+      "tip": "Dissolve SPF & makeup",
+      "icon": "water_drop",
+      "completed": true
+    },
+    {
+      "id": 2,
+      "step": "Cleanse",
+      "product": "Gentle Foaming Cleanser",
+      "tip": "Wash away leftover residue",
+      "icon": "bubble_chart",
+      "completed": true
+    },
+    {
+      "id": 3,
+      "step": "Clarify",
+      "product": "BHA Clarifying Solution",
+      "tip": "Pat gently, 2-3x weekly",
+      "icon": "lens_blur",
+      "completed": true
+    },
+    {
+      "id": 4,
+      "step": "Treat",
+      "product": "Retinol Renewal Elixir",
+      "tip": "Apply to dry skin only",
+      "icon": "science",
+      "completed": true
+    },
+    {
+      "id": 5,
+      "step": "Nourish",
+      "product": "Deep Recovery Barrier Balm",
+      "tip": "Locks in nightly moisture",
+      "icon": "spa",
+      "completed": true
+    },
+    {
+      "id": 6,
+      "step": "Eyes",
+      "product": "Peptide Smoothing Balm",
+      "tip": "Gently tap with ring finger",
+      "icon": "visibility",
+      "completed": false
+    },
+    {
+      "id": 7,
+      "step": "Lips",
+      "product": "Ceramide Overnight Glaze",
+      "tip": "Apply generous layer before sleep",
+      "icon": "face",
+      "completed": false
+    }
+  ],
+  "skinLovingFoods": [
+    "Avocado",
+    "Green Tea",
+    "Walnuts"
+  ],
+  "watchOutFoods": [
+    "Dairy",
+    "Refined Sugar"
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Gentle Milky Cleanser",
+      "subtitle": "Oat Extract & Ceramides",
+      "category": "Cleansers",
+      "skinTypeTag": "Dry Skin",
+      "rating": 4.8,
+      "isFavorite": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDnPPbbT-Yawdt0arTSrHqloWiCCFZbyBc4x4Wr2KClNF4IyxGngKN59iOey-IOUpV_cB-Q92qKbMPYCiioIoadZEyISjoN4-8Yjk_nBeVGw0BLcmKy9x-rmqnG8KtHZzPxK-oaPBxNk4FcmdHtutpxB56ymnF_UMm9yrd9iG3lscnnlAdgcBtfK7htIrjZZwKzrnS7F7glXpi87vmsgZj98hE0UljInI6mk-U2bi3c4rfYCKdD7GzjAg",
+      "alt": "Gentle Milky Cleanser frosted bottle"
+    },
+    {
+      "id": 2,
+      "name": "Calming Cica Serum",
+      "subtitle": "Centella Asiatica & Panthenol",
+      "category": "Serums",
+      "skinTypeTag": "Sensitive",
+      "rating": 4.9,
+      "isFavorite": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB6uWQi3Baq6uSyLoYnKkoaXk1I5njXmDmo2esCM4Y6VuBpelOcOlKJbjezPTJo1LSrOrEynjhe2jIHBQ9DYx4EYyJXffPBjsEN06aR1Pbcz754waRuwuT23kE9qMySd8gGewa4DXBlclKaOaDtLlLVHl0b1soKd2ljcIQlec1GHgiX8HJ6Qum9u6gmU6mq98o_TEJUjVArOcsDKT0lrWPh9qwJj2jSiSz195OBtx0NlyvbrI_JA8bM6Q",
+      "alt": "Calming Cica Serum dropper bottle"
+    },
+    {
+      "id": 3,
+      "name": "Daily Barrier Cream",
+      "subtitle": "Hyaluronic Acid & Peptides",
+      "category": "Moisturizers",
+      "skinTypeTag": "All Skin Types",
+      "rating": 4.7,
+      "isFavorite": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuD7mfE-4VLpPqTc8evIaVu_04vi3CbADxx6780dZGY6jBvAhpPuCMGZRbDenkLPva4d06_yYy66iZo5t2phUooQH7G10m37Pqc2x1n97Y7zYXTVtcis26sfMVkMAymijbMcyHL3g2PeUfhUxHPCOGEqC9VOoT1WFk2cvbfBXJaorVpAahB2rqMcgHN-aUnQUnRqoZJfFPR4j2yjvzBengbofCgoYMP4ivkjuPwUm563TnNmxf8eA6qqow",
+      "alt": "Daily Barrier Cream minimalist jar"
+    },
+    {
+      "id": 4,
+      "name": "Purifying Gel Cleanser",
+      "subtitle": "BHA & Green Tea",
+      "category": "Cleansers",
+      "skinTypeTag": "Oily Skin",
+      "rating": 4.6,
+      "isFavorite": true,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCA0v_dd5d4KGd-EhlVBJFnhzWWzTR3WgDPiEN0VeaqV4UKE6F-WxCX1WGp2FYDZlffuDoiXZoXnjFzAdQB2eKxlc9gjAxhZgsC2NBXZ8dk2-EJR16MaGgIHJc32odnlAhFn6ZGLBO27ZNdvkbzBrNpE8n3NUHpUMi434ss7mGw4Bh6xW6ySU4YaGWOxfIiUiuhc9lrPOMqDQRMbzXTjHD8IB3eKi0EDEY7rrQQYvFwJTwB8yZuKTVx-g",
+      "alt": "Purifying Gel Cleanser bottle"
+    },
+    {
+      "id": 5,
+      "name": "Sheer Defense Sunscreen SPF 50+",
+      "subtitle": "Zinc Oxide & Niacinamide",
+      "category": "Sunscreens",
+      "skinTypeTag": "All Skin Types",
+      "rating": 4.9,
+      "isFavorite": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDnPPbbT-Yawdt0arTSrHqloWiCCFZbyBc4x4Wr2KClNF4IyxGngKN59iOey-IOUpV_cB-Q92qKbMPYCiioIoadZEyISjoN4-8Yjk_nBeVGw0BLcmKy9x-rmqnG8KtHZzPxK-oaPBxNk4FcmdHtutpxB56ymnF_UMm9yrd9iG3lscnnlAdgcBtfK7htIrjZZwKzrnS7F7glXpi87vmsgZj98hE0UljInI6mk-U2bi3c4rfYCKdD7GzjAg",
+      "alt": "Sheer Defense SPF 50 tube"
+    },
+    {
+      "id": 6,
+      "name": "Bakuchiol Retinol Alternative",
+      "subtitle": "Plant-derived smoothing elixir",
+      "category": "Serums",
+      "skinTypeTag": "Sensitive",
+      "rating": 4.8,
+      "isFavorite": false,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB6uWQi3Baq6uSyLoYnKkoaXk1I5njXmDmo2esCM4Y6VuBpelOcOlKJbjezPTJo1LSrOrEynjhe2jIHBQ9DYx4EYyJXffPBjsEN06aR1Pbcz754waRuwuT23kE9qMySd8gGewa4DXBlclKaOaDtLlLVHl0b1soKd2ljcIQlec1GHgiX8HJ6Qum9u6gmU6mq98o_TEJUjVArOcsDKT0lrWPh9qwJj2jSiSz195OBtx0NlyvbrI_JA8bM6Q",
+      "alt": "Bakuchiol serum dropper bottle"
+    }
+  ],
+  "heatmapDays": [
+    { "empty": true },
+    { "empty": true },
+    { "day": 1, "level": 1, "routines": "1/2 routines" },
+    { "day": 2, "level": 3, "routines": "2/2 routines" },
+    { "day": 3, "level": 2, "routines": "2/2 routines" },
+    { "day": 4, "level": 4, "routines": "2/2 routines + water" },
+    { "day": 5, "level": 3, "routines": "2/2 routines" },
+    { "day": 6, "level": 1, "routines": "1/2 routines" },
+    { "day": 7, "level": 4, "routines": "2/2 routines + water" },
+    { "day": 8, "level": 4, "routines": "2/2 routines + water" },
+    { "day": 9, "level": 3, "routines": "2/2 routines" },
+    { "day": 10, "level": 2, "routines": "2/2 routines" },
+    { "day": 11, "level": 4, "routines": "2/2 routines + water" },
+    { "day": 12, "level": 3, "routines": "2/2 routines" },
+    { "day": 13, "level": 0, "routines": "Rest day" },
+    { "day": 14, "level": 1, "routines": "1/2 routines" },
+    { "day": 15, "level": 2, "routines": "2/2 routines" },
+    { "day": 16, "level": 3, "routines": "2/2 routines" },
+    { "day": 17, "level": 4, "routines": "2/2 routines + water" },
+    { "day": 18, "level": 3, "routines": "2/2 routines" },
+    { "day": 19, "level": 4, "routines": "2/2 routines + water" },
+    { "day": 20, "level": 4, "routines": "2/2 routines + water" },
+    { "day": 21, "level": 3, "routines": "2/2 routines" },
+    { "day": 22, "level": 4, "routines": "2/2 routines + water" },
+    { "day": 23, "level": 3, "routines": "2/2 routines" },
+    { "day": 24, "level": 4, "routines": "2/2 routines + water" },
+    { "day": 25, "level": 2, "routines": "Today: In Progress" },
+    { "day": 26, "level": 0, "future": true },
+    { "day": 27, "level": 0, "future": true },
+    { "day": 28, "level": 0, "future": true },
+    { "day": 29, "level": 0, "future": true },
+    { "day": 30, "level": 0, "future": true },
+    { "day": 31, "level": 0, "future": true }
+  ]
+}

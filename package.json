@@ -1,0 +1,20 @@
+{
+  "name": "glowtrack-skincare",
+  "version": "1.0.0",
+  "description": "GlowTrack Skincare & Wellness Full-Stack Application",
+  "type": "module",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "start": "node start-dev.js",
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev"
+  },
+  "keywords": [
+    "skincare",
+    "fullstack",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}
